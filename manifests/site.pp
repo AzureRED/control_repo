@@ -6,5 +6,5 @@ node default {
   }
 }
 node 'master.puppet.vm' {
-  include role::web_server
+  include role::app_server
 }
